@@ -1,11 +1,12 @@
 import React from 'react'
+import Navigation from './Navigation'
 
-const header = () => {
+const Header = () => {
     return (
         <div>
-            
+            <Navigation/>
         </div>
     )
 }
 
-export default header
+export default Header
