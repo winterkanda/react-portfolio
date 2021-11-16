@@ -4,10 +4,13 @@ const Resume = () => {
     return (
         <div className="resume-container">
             
+            <div className="resume-header">
+                <h3>My Relevant Profiencies</h3>
+            </div>
             <div>
-                <h4>My Relevant Profiencies</h4>
+                
 
-                <h3>Front-End</h3>
+                <h4>Front-End</h4>
                 <ul>
                     <li>jQuery</li>
                     <li>React</li>
@@ -17,7 +20,7 @@ const Resume = () => {
                     <li>Git/GitHub</li>
                 </ul>
 
-                <h3>Back-End</h3>
+                <h4>Back-End</h4>
                 <ul>
                     <li>APIs</li>
                     <li>Express</li>
@@ -25,7 +28,7 @@ const Resume = () => {
                     <li>NodeJS</li>
                 </ul>
 
-                <h3>Coding Languages</h3>
+                <h4>Coding Languages</h4>
                 <ul>
                     <li>CSS</li>
                     <li>HTML</li>
@@ -37,7 +40,7 @@ const Resume = () => {
                     <li>Python</li>
                 </ul>
 
-                <h3>Databases</h3>
+                <h4>Databases</h4>
                 <ul>
                     <li>Sequelize</li>
                     <li>MongoDB</li>
@@ -46,7 +49,7 @@ const Resume = () => {
                     <li>MongoDB</li>
                 </ul>
 
-                <h3>Other</h3>
+                <h4>Other</h4>
                 <ul>
                     <li>Trilingual</li>
                     <li>Product Management</li>
@@ -61,7 +64,7 @@ const Resume = () => {
 
             </div>
 
-            <h5 className="mt-4">Download My Resume <a href={`${process.env.PUBLIC_URL}/images/resume.pdf`} download>Here</a> </h5>
+            <h1 className="mt-4">Download My Resume <a href={`${process.env.PUBLIC_URL}/images/resume.pdf`} download>Here</a> </h1>
 
         </div>
     )
