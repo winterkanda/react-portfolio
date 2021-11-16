@@ -5,7 +5,7 @@ const Resume = () => {
         <div className="resume-container">
             
             <div className="resume-header">
-                <h3>My Relevant Profiencies</h3>
+                <h2>My Relevant Profiencies</h2>
             </div>
             <div>
                 
@@ -64,7 +64,7 @@ const Resume = () => {
 
             </div>
 
-            <h1 className="mt-4">Download My Resume <a href={`${process.env.PUBLIC_URL}/images/resume.pdf`} download>Here</a> </h1>
+            <h3 className="mt-4">Download My Resume <a href={`${process.env.PUBLIC_URL}/images/resume.pdf`} download>Here</a> </h3>
 
         </div>
     )
