@@ -15,14 +15,14 @@ Welcome to my portfolio highlighting my technical skills as a software developer
 &nbsp;
 
 ## Sneak Peek
-![Screenshot](images/screenshot.png)
+![Screenshot](public/images/screenshot.png)
 
 &nbsp;
 
 
 
 ## Deployed Live
-
+https://winterkanda.github.io/react-portfolio/
 
 
 &nbsp;
