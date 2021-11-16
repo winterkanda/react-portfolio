@@ -5,7 +5,9 @@
 }
 
 .App {
-    padding-top: 25px;
+    padding: 100px 0 50px 0;
+    background-color: #f1f1f1;
+    min-height: 95vh;
 }
 
 .cards-container {
@@ -42,4 +44,60 @@
 .project-col {
     display: flex;
     justify-content: center;
+}
+
+.contact-container, .resume-container {
+    width: 100%;
+    /* background-image: url("web adress online image, or a path to the file if it's in my source folder") */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    /* min-height: 90vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form {
+    width: 100%;
+    background-color: darkslategrey;
+    -webkit-box-shadow: 5px 5px 15px -2px #000000;
+    box-shadow: 5px 5px 15px -2px #000000;
+    padding: 10%;
+    color: lightyellow;
+}
+
+.fab, .fas{
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.row {
+    width: 90%;
+}
+
+.resume-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #78C2AD;
+    color: white;
+    padding: 8px 0;
+}
+
+.footer-icons > a {
+    color: white;
+}
+
+.contact-error {
+    text-align: right;
 }

@@ -4,7 +4,7 @@ import {Navbar, Container, Nav} from "react-bootstrap";
 
 const Navigation = () => {
   return (
-    <Navbar bg="primary" expand="lg" variant="dark">
+    <Navbar bg="primary" expand="lg" variant="dark" fixed="top">
       <Container style={{fontWeight:"bold"}}>
         <Navbar.Brand href="#home">Winter Kanda</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
