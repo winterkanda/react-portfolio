@@ -7,7 +7,7 @@ const AboutMe = () => {
             <Row className= "align-items-center">
 
                 <Col sm={12} lg={6} className="mb-4">
-                    <img style={{width: "100%"}} src={process.env.PUBLIC_URL + "/images/aboutpic.JPG"}/>
+                    <img style={{width: "100%"}} src={process.env.PUBLIC_URL + "/images/RamboandI.JPG"}/>
                     
                 </Col>
 
