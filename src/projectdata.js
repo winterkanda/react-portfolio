@@ -26,7 +26,7 @@ const projects = [
         title: "Code Quiz",
         img: "codequiz.png",
         link: "https://winterkanda.github.io/code-quiz/",
-        github: "https://github.com/winterkanda/Homework-4-code-quiz"
+        github: "https://github.com/winterkanda/code-quiz"
     },
     {
         title: "What's the Weather Like?",
